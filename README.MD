@@ -20,7 +20,7 @@ python manage.py createsuperuser
 # runserver
 python manage.py runserver
 
-# to run the application
+# to run the application it is assumed that a folder named data is stored in the poi directory where all files are kept
 # csv
 python manage.py import_pois data/pois.csv
 
